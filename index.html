@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Linear Gradient Generator</title>
+	<!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- Custom CSS  -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body id="gradient">
+	<div>
+		<h2>Linear Gradient Generator</h2>
+		<hr>
+		<input type="color" id="color1" name="color1" value="##2a5298">
+		<input type="color" id="color2" name="color2" value="#0091ea">
+		<div class="direction-div">
+			<label>
+				<input class="group1" id="right" name="direction" type="radio"/>
+				<span>To Right</span>
+			</label>
+			<label>
+				<input class="group1" id="left" name="direction" type="radio"/>
+				<span>To Left</span>
+			</label>
+			<label>
+				<input class="group1" id="top" name="direction" type="radio"/>
+				<span>To Top</span>
+			</label>
+			<label>
+				<input class="group1" id="bottom" name="direction" type="radio"/>
+				<span>To Bottom</span>
+			</label>
+		</div>
+		<br>
+		<h4>CSS Code: </h4>
+		<p id="css"></p>
+
+		<button id="random-btn" class="btn waves-effect waves-light amber darken-1" type="submit" name="action">Random Gradient
+			<i class="material-icons right">gradient</i>
+		  </button>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

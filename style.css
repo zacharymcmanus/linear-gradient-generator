@@ -1,0 +1,46 @@
+body {
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 0.5em;
+	color: rgba(0,0,0,0.5);
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 1.5em;
+	top: 15%;
+}
+
+div {
+	margin-left: auto;
+}
+
+hr {
+	border-color: rgba(0,0,0,0.5);
+	width: 75%;
+	margin-bottom: 30px;
+}
+
+.direction-div {
+	margin-top: 20px;
+	letter-spacing: 0em;
+	text-transform: none;
+}
+
+h2 {
+	color: white;
+}
+
+h4 {
+	letter-spacing: 0.2em;
+	margin-top: 45px;
+	letter-spacing: 0em;
+}
+
+#color1, #color2 {
+	border: 5px transparent rgba(0,0,0,0.5);
+}
+
+#css {
+	letter-spacing: 0em;
+	text-transform: lowercase;
+	color: white;
+}
+
